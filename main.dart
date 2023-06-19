@@ -1,3 +1,8 @@
+
+import 'liskovs_substitution/liskov_substitution_good.dart';
+
 void main(){
-  print('Tanvir');
+  FlyingBird bird = Eagle();
+  bird.eat();
+  bird.fly();
 }
