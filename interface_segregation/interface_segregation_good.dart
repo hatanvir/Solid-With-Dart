@@ -39,4 +39,4 @@ class UserDao extends LocalFetch{
 
 ///here we segregate our method into two interface
 ///one for local and another one is for server
-///and if we use those and no irrelevant method needs to implement
+///and if we use those, no irrelevant method needs to implement

@@ -12,7 +12,7 @@ abstract class BaseFetch{
 ///here service is only responsible for handling user-related server requests.
 ///but unfortunately there are some extra methods implemented like fetching data from local db, sd cards
 ///those methods are unusual, we are not gonna use those anymore
-///and this breaks ISP principle
+///and it breaks ISP rule
 ///we will solve it on interface_segregation_good file
 
 class UserService extends BaseFetch{
