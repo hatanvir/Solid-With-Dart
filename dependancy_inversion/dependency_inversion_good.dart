@@ -1,3 +1,7 @@
+///High-level modules should not depend on low-level modules. Both should depend on abstractions.
+///Abstractions should not depend on details. Details should depend on abstractions.
+
+
 
 abstract class User{
   void saveData();
@@ -42,5 +46,5 @@ class UserRepository {
 
 ///so, if want to handle sd card data
 ///like get user data or post user data to sd card
-///then no need to modify existing class
-///just need to create a class and extend user class
+///then no need to modify an existing class
+///just need to create a class and extend the user class
