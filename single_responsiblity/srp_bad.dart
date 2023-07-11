@@ -1,6 +1,6 @@
 ///A class should only be responsible for one thing that means a class could change for only one reason.
 
-class SrpBad{
+class User{
   void getUserDataFromLocalDb(){
     print('Local sata fetched...');
   }

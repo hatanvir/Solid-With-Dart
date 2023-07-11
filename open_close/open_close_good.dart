@@ -28,4 +28,4 @@ class SdCardDao extends UserDao{
 
 ///if we see here, we can see that getData method is always fixed
 ///if we need to get data from multiple source then we just extended UserDao
-///and we dont need to modify UserDao class
+///and we don't need to modify UserDao class

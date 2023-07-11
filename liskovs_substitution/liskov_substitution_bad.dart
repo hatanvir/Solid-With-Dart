@@ -1,5 +1,3 @@
-import 'liskov_substitution_good.dart';
-
 ///The LSP states that subclasses should be replaced with superclasses without changing the logical correctness of the program
 ///LiskovBad
 
